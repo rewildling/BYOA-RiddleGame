@@ -63,7 +63,7 @@ const riddles = [
     {
         text: "What room do ghosts\navoid?",
         correctSymbol: 1,
-        symbols: ["👻", "🏃"]
+        symbols: ["👻", "🛋️"]
     },
     {
         text: "What has a face and two hands\nbut no arms or legs?",
