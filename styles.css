@@ -38,12 +38,12 @@ button {
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
     transition: transform 0.1s;
-    background-color: #add8e6;  /* Light blue background */
+    background-color: #00ffff;  /* Changed to cyan for testing */
 }
 
 button:hover {
     transform: scale(1.2);
-    background-color: #87ceeb;  /* Slightly darker blue on hover */
+    background-color: #00cccc;  /* Darker cyan on hover */
 }
 
 #message {
