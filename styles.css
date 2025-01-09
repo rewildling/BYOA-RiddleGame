@@ -38,15 +38,12 @@ button {
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
     transition: transform 0.1s;
-    background-color: transparent;
+    background-color: #add8e6;  /* Light blue background */
 }
 
 button:hover {
     transform: scale(1.2);
-}
-
-button:active {
-    transform: scale(0.95);
+    background-color: #87ceeb;  /* Slightly darker blue on hover */
 }
 
 #message {
