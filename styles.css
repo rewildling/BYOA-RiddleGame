@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #1a1a2e;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.riddle {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.button-container {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+button {
+    font-size: 4rem;
+    padding: 2rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    transition: transform 0.1s;
+    background-color: transparent;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#message {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #ffd700;
+    font-weight: bold;
+} 
